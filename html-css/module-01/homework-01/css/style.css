@@ -1,0 +1,46 @@
+.name-1 {
+	line-height: 200%;
+}
+
+.inline1 {
+	font-size: 20px;
+	background-color: #1628A0;
+	color: #ffffff;
+	padding: 5px;
+}
+.inline2 {
+	font-size: 15px;
+	background-color: #853CA0;
+	color: #ffffff;
+	padding: 6px;
+}
+.inline3 {
+	font-size: 20px;
+	background-color: #A09A29;
+	color: #ffffff;
+	padding: 7px;
+	line-height: 300%;
+}
+.inline4 {
+	font-size: 20px;
+	background-color: #50FF6D;
+	color: #000000;
+	padding: 5px;
+}
+.letter {
+	color: red;
+	font-size: 30px;
+}
+ol {
+	border: 2px solid black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+	padding-right: 10px;
+}
+li, p {
+	margin: 0px;
+}
+.style-1 {
+	padding-right: 50px;
+}
