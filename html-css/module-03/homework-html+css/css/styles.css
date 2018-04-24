@@ -23,7 +23,7 @@ input[type="radio"].visually-hidden {
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
-
+/* -------------Styles for menu------------- */
 .main-menu{
 	text-align: center;
 	margin-top: 77px;
@@ -46,18 +46,20 @@ input[type="radio"].visually-hidden {
 	color: #66FF37;
 }
 
-.one-row-list, .two-row-list, .three-row-list{
+/* -----------Styles for artical-------------*/
+
+.list{
 	margin: auto;
 	width: 900px;
 }
 
-.one-row-item, .two-row-item, .three-row-item{
+.one-item, .two-item, .three-item{
 	display: inline-block;
 	width: 420px;
 }
 
 .left{
-	margin-right: 50px;
+	margin-right: 56px;
 }
 img{
 	padding-bottom: 32px;
@@ -88,6 +90,8 @@ a{
 	color: #626262;
 }
 
+/* -------------Styles for button--------*/
+
 .footer-end{
 	text-align: center;
 	margin-bottom: 50px;
@@ -97,6 +101,11 @@ a{
 	display: inline-block;
 	font-size: 20px;
 	text-align: center;
-	padding: 25px 52px 21px 33px;
-	border: 2px solid #626262;
+	padding: 25px 50px;
+	border: 1px solid #626262;
+}
+
+.load-end:hover{
+	background-color: #949494;
+	color: #FFFFFF;
 }
