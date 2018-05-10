@@ -1,0 +1,96 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.visually-hidden:not(:focus):not(:active), 
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+	position: absolute;
+
+	width: 1px;
+	height: 1px;
+	margin: -1px
+	border: 0;
+	padding: 0;
+	
+	white-space: nowrap;
+
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+/* -------------Styles for menu and logo------------- */
+
+.main-header {
+	padding-top: 38px;
+	height: 39px;
+	width: 1112px;
+	margin: auto;
+}
+
+.main-menu {
+	width: 80px;
+	float: left;
+}
+
+a {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a p {
+	color: #555252;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+}
+
+p::first-letter {
+	color: #1abc9c;
+	letter-spacing: -1px;
+	font-weight: 900;
+}
+
+.main-nav {
+	height: 39px;
+	width: 490px;
+	float: right;
+}
+
+.menu {
+	height: 39px;
+	max-width: 490px;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.menu-item {
+	height: 39px;
+	float: left;
+	margin-right: 20px;
+	line-height: 39px;	
+}
+
+li a {
+	color: #000;
+	display: block;
+}
+
+li a:hover {
+	color: #1abc9c;
+}
+
+ul li:last-child {
+	margin-right: 0px;
+}
+
+.clearfix {
+  display: table;
+  content: "";
+  clear: both;
+}
