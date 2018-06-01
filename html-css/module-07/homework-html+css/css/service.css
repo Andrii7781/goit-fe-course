@@ -1,0 +1,75 @@
+.service {
+	width: 940px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.title-service, .info-title-service {
+	width: 940px;
+	text-align: center;
+}
+
+.title-service{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #222222;
+	margin-bottom: 18px;
+}
+
+.info-title-service {
+	font-family: 'Droid Serif', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 16px;
+	color: #777777;
+	margin-bottom: 78px;
+}
+
+.nav-menu-service {
+	width: 940px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 122px;
+}
+
+.menu-item-service, .info-service {
+	width: 290px;
+}
+
+.title-menu-service {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+.style-logo{
+	display: block;
+	width: 66px;
+	height: 66px;
+	margin: auto;
+	border-radius: 33px;
+	border: 3px solid #fed136;
+	/* line-height: 60px; */
+	margin-bottom: 28px;
+	padding-top: 9px;
+}
+
+.logo-menu-service {
+	display: block;
+	margin: auto;
+	/* line-height: 60px; */
+}
+
+.info-service {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 14px;
+	color: #777777;
+	text-align: center;
+	line-height: 1.7;
+}

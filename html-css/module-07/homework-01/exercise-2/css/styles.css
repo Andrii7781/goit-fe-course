@@ -1,0 +1,13 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 440px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 20px;
+	box-shadow: 0 3px 3px #A9A9A9;
+}

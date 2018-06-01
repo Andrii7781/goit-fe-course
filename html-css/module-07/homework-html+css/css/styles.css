@@ -1,0 +1,23 @@
+/* ---------- Connecting fonts ---------- */
+
+@import url(font.css);
+
+/* ---------- Connecting styles for menu and logo ---------- */
+
+@import url(styles-menu.css);
+
+/* ---------- Connecting styles for service ---------- */
+
+@import url(service.css);
+
+/* ---------- Connecting styles for message ---------- */
+
+@import url(message.css);
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+}

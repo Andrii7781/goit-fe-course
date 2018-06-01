@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-v12-latin/montserrat-v12-latin-regular.woff2') format('woff2'), 
+       url('../fonts/Montserrat-v12-latin/montserrat-v12-latin-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Wisdom Script';
+  src: url('../fonts/Wisdom_Script/WisdomScriptAJ.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Droid Serif';
+  src: url('../fonts/DroidSerif/DroidSerif-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-v12-latin/montserrat-v12-latin-700.woff2') format('woff2'), 
+       url('../fonts/Montserrat-v12-latin/montserrat-v12-latin-700.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('../fonts/Roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff') format('woff'),
+       url('../fonts/Roboto-slab-v7-latin/roboto-slab-v7-latin-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}

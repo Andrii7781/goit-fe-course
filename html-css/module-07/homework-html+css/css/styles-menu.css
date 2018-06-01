@@ -1,0 +1,45 @@
+.wrapper {
+	width: 940px;
+	display: flex;
+	background-color: #fff;
+	margin: auto;
+	justify-content: space-between;
+	padding-top: 50px;
+	margin-bottom: 128px;
+}
+
+.logo {
+	width: 100px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.logo-title {
+	font-family: 'Wisdom Script', sans-serif;
+	font-weight: 300;
+	font-size: 26px;
+	color: #fed136;
+}
+
+.main-nav {
+	display: flex;
+	align-items: flex-end;
+}
+
+.menu {
+	width: 480px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-item {
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	font-size: 14px;
+	color: #222222;
+	text-transform: uppercase;
+}
+
+.menu-item:hover {
+	color: #fed136;
+}

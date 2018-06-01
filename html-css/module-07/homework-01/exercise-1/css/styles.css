@@ -1,0 +1,51 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*------------Styles for table-------------*/
+
+.wrapper {
+	width: 500px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 20px 20px 40px 20px;
+	box-shadow: 0 3px 3px #A9A9A9;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+caption {
+	width: 460px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+th, td {
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	border: 2px solid #474747;
+}
+
+th {
+	color: #fff;
+	background-color: #474747;
+}
+
+td:first-of-type {
+	text-transform: uppercase;
+}
+
+td:nth-of-type(2) {
+	text-align: center;
+}
+
+td:last-of-type {
+	text-align: center;
+}
