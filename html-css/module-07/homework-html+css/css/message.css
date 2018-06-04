@@ -47,24 +47,16 @@ input {
 	border-radius: 4px;
 	margin-bottom: 27px;
 	padding-left: 20px;
-	text-transform: uppercase;
 	font-size: 14px;
-	color: #bbbbbb;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
 }
 
 textarea {
 	width: 1296px;
 	height: 214px;
 	border-radius: 4px;
-	text-transform: uppercase;
 	padding-left: 20px;
 	padding-top: 20px;
 	font-size: 14px;
-	color: #bbbbbb;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
 }
 
 .button-message {
@@ -75,18 +67,25 @@ textarea {
 	margin-bottom: 0px;
 	padding-left: 0px;
 	background-color: #fed136;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 18px;
 	color: #ffffff;
 	cursor: pointer;
 }
 
-.form-info:invalid {
-	outline: 2px solid #A90306;
-	outline-offset: 3px;
+textarea::-webkit-input-placeholder {
+	color: #bbbbbb;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 }
 
-.form-info:valid {
-	outline: 3px solid #25A911;
-	outline-offset: 5px;
+input::-webkit-input-placeholder {
+	color: #bbbbbb;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
 }
