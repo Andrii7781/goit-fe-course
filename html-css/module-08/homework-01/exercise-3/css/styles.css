@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding-top: 20px;
+}
+
+.container {
+	font-size: 0px;
+	min-width: 480px;
+	background-color: #dedede;
+	padding: 1rem;
+	margin: auto;
+}
+
+.red {
+	width: 100%;
+	background-color: #f95e40;
+	height: 10rem;
+	margin: auto;
+	margin-bottom: 1rem;
+}
+
+.container-two {
+	width: 100%;
+}
+
+.green {
+	width: 100%;
+	background-color: #00a672;
+	height: 11rem;
+	margin-bottom: 1rem;
+}
+
+.blew {
+	width: 100%;
+	background-color: #2f97de;
+	height: 8rem;	
+}
+
+@media (min-width: 768px){
+	.container-two {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.green {
+		width: 37%;
+		height: 20rem;
+		margin-bottom: 0;
+	}
+
+	.blew {
+		width: 60%;
+		height: 20rem;
+	}
+}
