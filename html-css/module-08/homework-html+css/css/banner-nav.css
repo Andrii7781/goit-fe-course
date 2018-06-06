@@ -1,0 +1,139 @@
+.wrapper {
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+   	background-size: cover;
+   	padding-top: 2.19rem;
+   	padding-bottom: 8.625rem;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.logo {
+	text-align: center;
+	order: 1;
+	margin-bottom: 2.1875rem;
+}
+
+.logo-title {
+	color: #fff;
+	font-size: 1.125rem;
+	text-transform: uppercase;
+}
+
+.nav {
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	width: 11.5918rem;
+	margin-bottom: 7.75rem;
+}
+
+.nav-link {
+	display: inline-block;
+	color: #fff;
+	font-size: 0.875rem;
+	padding: 0.9375rem 1.125rem 0.8125rem 1.1875rem;
+	border: 0.125rem solid transparent;
+}
+
+.nav-link:hover {
+	border: 0.125rem solid #fff;
+	border-radius: 1.4375rem;
+}
+
+.banner-title {
+	margin: auto;
+	width: 18.400625rem;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1.875rem;
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+.banner-commit {
+	width: 13.5625rem;
+	color: #fff;
+	font-size: 1.125rem;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 1rem;
+}
+
+.button {
+	display: block;
+	margin: auto;
+	color: #ff4e50;
+	font-size: 0.875rem;
+	text-align: center;
+	line-height: 2.5rem;
+	border-radius: 1.25rem;
+	border: 0.125rem solid #ff4e50;
+}
+
+.button:hover {
+	background-color: #ff4e50;
+	color: #fff;
+}
+
+/* ---------- Media for min-width 768px ---------- */
+
+@media (min-width: 768px) {
+	.wrapper {
+		padding-top: 2.25rem;
+	   	padding-bottom: 14.4375rem;
+	}
+
+	.header {
+		width: 87%;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: auto;
+		margin-bottom: 6.5625rem;
+	}
+
+	.logo {
+		margin-top: 0.9375rem;
+		order: 0;
+	}
+
+	.nav {
+		width: 29%;
+		display: inline-block;
+		margin: 0rem;
+	}
+
+	.banner-title {
+		font-size: 3.25rem;
+		width: 32rem;
+	}
+
+	.banner-commit {
+		width: 27rem;
+		font-size: 1.5rem;
+		margin-bottom: 2.0625rem;
+	}
+
+	.button {
+		width: 14.125rem;
+	}
+}
+
+/* ---------- Media for min-width 1440px ---------- */
+
+@media (min-width: 1440px) {
+	.header {
+		width: 100%;
+	}
+
+	.nav {
+		width: 22%;
+	}
+}
+
+/* -------------------- The End ------------------- */
