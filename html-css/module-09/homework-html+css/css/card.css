@@ -1,0 +1,98 @@
+.wrapper-card {
+	background-color: #fff;
+	padding-top: 4.625rem;
+	padding-bottom: 3.5625rem;
+}
+
+.team-title {
+	text-align: center;
+	margin-bottom: 1.1875rem;
+	color: #333333;
+	font-size: 1.375rem;
+}
+
+.foto-team {
+	margin-bottom: 1.4375rem;
+}
+
+.face {
+	border-radius: 3.8125rem;
+}
+
+.face-logo {
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 1.25rem;
+	border: 0.25rem solid #fff;
+	padding-top: 0.4rem;
+	position: absolute;
+	bottom: -0.3125rem;
+	right: 0rem;
+}
+
+.color-one {
+	background-color: #ff4e50;
+}
+
+.color-two {
+	background-color: #1cd7ad;
+}
+
+.color-three {
+	background-color: #ffa507;
+}
+
+.color-four {
+	background-color: #4e73db;
+	padding-top: 0.5rem;
+}
+
+.name{
+	color: #333333;
+	margin-bottom: 1.375rem
+}
+
+.about {
+	color: #666666;
+	margin-bottom: 1.5rem;
+}
+
+.name, .about {
+	text-align: center;
+	font-size: 0.875rem;
+}
+
+/* ---------- Media for min-width 768px ---------- */
+
+@media (min-width: 768px) {
+	.wrapper-card {
+		padding-top: 4.8125rem;
+		padding-bottom: 2.5rem;
+	}
+
+	.about {
+		margin-bottom: 0rem;
+	}
+
+	.team-title {
+		margin-bottom: 2.25rem;
+	}
+
+	.team-card {
+		margin-bottom: 3.6875rem;
+	}
+
+	.button-two {
+		margin-top: 1.4375rem;
+	}
+}
+
+/* ---------- Media for min-width 1440px ---------- */
+
+@media (min-width: 1440px) {
+	.wrapper-card {
+		padding-top: 4.8125rem;
+		padding-bottom: 4.5625rem;
+	}
+}
+/* -------------------- The End ------------------- */
