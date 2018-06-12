@@ -1,0 +1,35 @@
+.yellow {
+	height: 10rem;
+	background-color: #FBF281;
+}
+
+.green {
+	height: 10rem;
+	background-color: #B8E986;
+}
+
+
+.col-md-9, .col-md-4, .col-12 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+@media(min-width: 768px) {
+	.yellow {
+		height: 20rem;
+	}
+
+	.green {
+		height: 20rem;
+	}
+}
+
+.box-one {
+	height: 10rem;
+	background-color: #F8D69D;
+}
+
+.box-two {
+	height: 10rem;
+	background-color: #F89EA9;
+}

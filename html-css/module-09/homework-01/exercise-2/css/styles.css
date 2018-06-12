@@ -1,0 +1,15 @@
+.box-one {
+	height: 10rem;
+	background-color: #F8D69D;
+}
+
+.box-two {
+	height: 10rem;
+	background-color: #F89EA9;
+}
+
+
+.col-md-4, .col-12 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
