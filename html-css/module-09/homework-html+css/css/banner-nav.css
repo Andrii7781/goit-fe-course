@@ -68,7 +68,6 @@
 }
 
 /* ---------- Media for min-width 768px ---------- */
-
  
 @media (min-width: 768px) {
 	.wrapper {
@@ -93,7 +92,7 @@
 		font-size: 1.5rem;
 		margin-bottom: 2.0625rem;
 	}
-
+}
 /* ---------- Media for min-width 1440px ---------- */
 
 
