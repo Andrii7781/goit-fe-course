@@ -1,0 +1,10 @@
+.block {
+  width: 25rem;
+  height: 12.5rem;
+  background: url('https://placeimg.com/400/200/people') no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .block {
+    background: url('https://placeimg.com/800/400/people') no-repeat;
+  }
+}
