@@ -1,0 +1,64 @@
+.wrapper-main-foter {
+	background-color: #fff;
+}
+
+.main-content {
+	padding-top: 3.4375rem;
+}
+
+.title__inform {
+	font-size: 1.5rem;
+	margin-bottom: 0.875rem;
+	color: #333333;
+}
+
+.subtitle__inform {
+	text-transform: uppercase;
+	text-align: center;
+	color: #333333;
+}
+
+.subtitle__inform::after {
+	display: block;
+	content: "";
+	border-bottom: 0.1875rem solid #f38181;
+	margin: auto;
+	margin-top: 2.5rem;
+	margin-bottom: 4.125rem;
+	width: 3.75rem;
+}
+
+.service {
+	height: 15.1875rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	margin-bottom: 5.6875rem; 
+}
+
+.service-name {
+	width: 21.875rem;
+	display: flex;
+}
+
+.service-name__img {
+	width: 2.6rem;
+	margin-right: 1.8125rem;
+}
+
+.service-info__title {
+	text-transform: uppercase;
+	color: #333333;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.875rem;
+	font-weight: 700;
+	margin-bottom: 1.4375rem;
+}
+
+.service-info__text {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 0.9375rem;
+	color: #999999;
+}

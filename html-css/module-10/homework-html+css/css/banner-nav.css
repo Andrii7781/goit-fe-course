@@ -1,0 +1,122 @@
+.wrapper {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(243,129,129,0.9)), to(rgba(252,227,138,0.9))), url(../img/layer_15.jpg);
+	background-image: -webkit-linear-gradient(top, rgba(243,129,129,0.9), rgba(252,227,138,0.9)), url(../img/layer_15.jpg);
+	background-image: -o-linear-gradient(top, rgba(243,129,129,0.9), rgba(252,227,138,0.9)), url(../img/layer_15.jpg);
+	background-image: linear-gradient(to bottom, rgba(243,129,129,0.9), rgba(252,227,138,0.9)), url(../img/layer_15.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+   	background-size: cover;
+   	padding-top: 1.33rem;
+   	padding-bottom: 14.375rem;
+}
+
+.header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom: 8.5rem;
+}
+
+.logo, .subtitle, .btn {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.875rem;
+	font-weight: 700;
+}
+
+.logo__link {
+	color: #fff;
+}
+
+.nav__list {
+	width: 38.625rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.875rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.nav__link {
+	color: #fff;
+	padding-bottom: 0.75rem;
+	border-bottom: 0.1875rem solid transparent;
+}
+
+.nav__link:hover {
+	color: #fce38a;
+	border-bottom: 0.1875rem solid #fce38a;
+}
+
+.nav__link-icons {
+	fill: #fff;
+}
+
+.nav__link-icons:hover {
+	fill: #fce38a;
+}
+
+.icon-shopping {
+	width: 1.125rem;
+	height: 0.9375rem;
+}
+
+.icon-search {
+	width: 1.125rem;
+	height: 1.125rem;
+}
+
+.title {
+	font-family: 'Kaushan-scrip', sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+.title__section {
+	font-size: 4.5rem;
+	color: #fff;
+	margin-bottom: 2.5rem;
+}
+
+.subtitle__section {
+	width: 53rem;
+	font-size: 9.375rem;
+	color: #fff;
+	margin: auto;
+	text-align: center;
+	line-height: 8.5rem;
+	margin-bottom: 7.625rem;
+	text-transform: uppercase;
+}
+
+.btn__section {
+	width: 9.375rem;
+	height: 2.5rem;
+	margin: auto;
+	font-size: 0.875rem;
+	border: 0.1875rem solid #fff;
+	text-transform: uppercase;
+	line-height: 2.125rem;
+	text-align: center;
+}
+
+.btn-current {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	border: 0.1875rem solid #fce38a;
+	cursor: pointer;
+	background-color: #fce38a; 
+}

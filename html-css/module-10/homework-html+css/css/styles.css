@@ -1,0 +1,29 @@
+/* ---------- Connecting reset ---------- */
+
+@import url(reset.css);
+
+/* ---------- Connecting fonts ---------- */
+
+@import url(font.css);
+
+/* -------------- Container ------------- */
+
+@import url(container.css);
+
+/* ----------- Banner and Menu ---------- */
+
+@import url(banner-nav.css);
+	
+/* ----------Styles for service---------- */
+
+@import url(service-section.css);
+
+/* ----------Styles for our team--------- */
+
+@import url(team-section.css);
+
+/* -----------Styles for footer---------- */
+
+@import url(footer.css);
+
+/* ----------------The End--------------- */
