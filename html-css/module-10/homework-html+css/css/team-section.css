@@ -13,7 +13,11 @@
 }
 
 .team__foto {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
 	justify-content: space-between;
 	padding-bottom: 5.375rem;
 	border-bottom: 0.0625rem solid #e5e5e5;
@@ -23,7 +27,11 @@
 	width: 23.75rem;
 	height: 29.375rem;
 	position: relative;
+	-webkit-transition-duration: 200ms;
+	-o-transition-duration: 200ms;
 	transition-duration: 200ms;
+	-webkit-transition-timing-function: linear;
+	-o-transition-timing-function: linear;
 	transition-timing-function: linear; 
 }
 
@@ -38,6 +46,9 @@
 	width: 23.75rem;
 	height: 29.375rem;
 	position: absolute;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(234,139,138,0.9)), to(rgba(242,226,145,0.9)));
+	background: -webkit-linear-gradient(top, rgba(234,139,138,0.9), rgba(242,226,145,0.9));
+	background: -o-linear-gradient(top, rgba(234,139,138,0.9), rgba(242,226,145,0.9));
 	background: linear-gradient(to bottom, rgba(234,139,138,0.9), rgba(242,226,145,0.9));
 	top: 0rem;
 	left: 0rem;
@@ -60,7 +71,11 @@
 	fill: #f38181;
 	display: inline-block;
 	line-height: 3.4375rem;
+	-webkit-transition-duration: 200ms;
+	-o-transition-duration: 200ms;
 	transition-duration: 200ms;
+	-webkit-transition-timing-function: linear;
+	-o-transition-timing-function: linear;
 	transition-timing-function: linear;
 }
 
@@ -85,7 +100,11 @@
 }
 
 .team-card__transition {
+	-webkit-transition-duration: 200ms;
+	-o-transition-duration: 200ms;
 	transition-duration: 200ms;
+	-webkit-transition-timing-function: linear;
+	-o-transition-timing-function: linear;
 	transition-timing-function: linear;
 }
 
@@ -113,6 +132,8 @@
 }
 
 .team-card__transition:hover {
+	-webkit-transform: translate(-0.625rem, -0.625rem);
+	-ms-transform: translate(-0.625rem, -0.625rem);
 	transform: translate(-0.625rem, -0.625rem);
 }
 

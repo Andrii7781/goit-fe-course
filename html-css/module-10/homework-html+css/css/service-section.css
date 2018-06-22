@@ -30,15 +30,23 @@
 
 .service {
 	height: 15.1875rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
 	justify-content: space-between;
+	-ms-flex-line-pack: justify;
 	align-content: space-between;
 	margin-bottom: 5.6875rem; 
 }
 
 .service-name {
 	width: 21.875rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
