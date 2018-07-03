@@ -1,0 +1,16 @@
+.wrapper {
+	background-image: linear-gradient(to bottom, rgba(243,129,129,0.9), rgba(252,227,138,0.9)), url(../img/banner.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+   	background-size: cover;
+   	padding-top: rem(22);
+   	padding-bottom: rem(219);
+   	width: rem(1920);
+   	margin: auto;
+
+   	&-main-footer {
+   		background-color: #fff;
+   		width: rem(1920);
+   		margin: auto;
+   	}
+}

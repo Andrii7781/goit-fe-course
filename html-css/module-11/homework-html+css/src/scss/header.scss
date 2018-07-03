@@ -1,0 +1,104 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: rem(136);
+}
+
+.logo, .subtitle, .btn {
+	@include logosubtn;
+}
+
+.logo__link {
+	color: $bannerTextColor;
+}
+
+.nav {
+	&__list {
+		width: rem(618);
+		font-family: 'Montserrat', sans-serif;
+		font-size: $navTextSize;
+		font-weight: 400;
+		text-transform: uppercase;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__link {
+		color: $bannerTextColor;
+		padding-bottom: rem(12);
+		border-bottom: rem(3) solid transparent;
+		
+		&:hover {
+			color: #fce38a;
+			border-bottom: rem(3) solid #fce38a;
+		}
+
+		&-icons {
+			fill: $bannerTextColor;
+
+			&:hover {
+				fill: #fce38a;
+			}
+		}
+	}
+}
+
+.icon-shopping {
+	width: rem(18);
+	height: rem(15);
+}
+
+.icon-search {
+	width: rem(18);
+	height: rem(18);
+}
+
+.title {
+	@include title;
+		
+	&__section {
+		font-size: rem(72);
+		color: $bannerTextColor;
+		margin-bottom: rem(40);
+	}
+}
+
+.subtitle {
+
+	&__section {
+		width: rem(848);
+		font-size: rem(150);
+		color: $bannerTextColor;
+		margin: auto;
+		text-align: center;
+		line-height: rem(140);
+		margin-bottom: rem(122);
+		text-transform: uppercase;
+	}
+}
+
+.btn {
+
+	&__section {
+		width: rem(150);
+		height: rem(40);
+		margin: auto;
+		font-size: $navTextSize;
+		border: rem(3) solid $bannerTextColor;
+		text-transform: uppercase;
+		line-height: rem(34);
+		text-align: center;
+	}
+
+	&-current {
+		color: $bannerTextColor;
+		text-transform: uppercase;
+	}
+
+	&:hover {
+		border: 0.1875rem solid #fce38a;
+		cursor: pointer;
+		background-color: #fce38a;
+	}
+}

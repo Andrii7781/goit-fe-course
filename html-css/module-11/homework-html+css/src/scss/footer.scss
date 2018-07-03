@@ -1,0 +1,70 @@
+.footer {
+	height: rem(62);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin: auto;
+
+	&__text {
+		font-family: 'Montserrat', sans-serif;
+		font-size: rem(14);
+		font-weight: 400;
+		color: $maintextColor;
+	
+		&--style {
+			color: #f38181;
+		}
+	}
+
+	&-input {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	
+		&__email {
+			width: rem(228);
+			height: rem(40);
+			border: rem(1) solid #e7e7e7;
+			font-family: 'Roboto', sans-serif;
+			font-size: rem(15);
+			font-weight: 300;
+			font-style: italic;
+			padding-left: rem(16);
+		
+			&::-webkit-input-placeholder {
+				color: #ccc;
+			}
+
+			&:-ms-input-placeholder {
+				color: #ccc;
+			}
+
+			&::-ms-input-placeholder {
+				color: #ccc;
+			}
+
+			&::placeholder {
+				color: #ccc;
+			}
+		}
+
+		&__link {
+			height: rem(40);
+			width: rem(150);
+			font-family: 'Montserrat', sans-serif;
+			font-size: $navTextSize;
+			font-weight: 700;
+			background-color: #95e1d3;
+			color: #fff;
+			text-transform: uppercase;
+			text-align: center;
+			line-height: rem(40);
+		}
+	}
+}

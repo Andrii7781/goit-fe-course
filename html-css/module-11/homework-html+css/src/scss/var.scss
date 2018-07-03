@@ -1,0 +1,71 @@
+@function rem($px) {
+  $result: $px / 16;
+  @return #{$result}rem;
+}
+
+@function prc($el, $container){
+  $result: $el / $container * 100%;
+  @return #{$result};
+}
+
+$bannerTextColor: #fff;
+$maintextColor: #333;
+$hovertextColor: #fce38a;
+$navTextSize: rem(14);
+
+/* ------- For Banner Section ------- */
+
+@mixin logosubtn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: rem(30);
+  font-weight: 700;
+}
+
+
+/* ------------- For Main ------------ */
+
+/* ------- For Service Section ------- */
+
+@mixin title {
+	font-family: 'Kaushan-scrip', sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+@mixin subtitle-main {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: $maintextColor;
+}
+
+@mixin service-info__text {
+	font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: rem(15);
+  color: #999;
+  line-height: rem(24);
+}
+
+/* ------- For Team Card ------- */
+
+@mixin team-card__info--title {
+	font-family: 'Montserrat', sans-serif;
+  font-size: $navTextSize;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $maintextColor;
+  text-align: center;
+  margin-bottom: rem(19);
+}
+
+@mixin team-card__info--subtitle {
+	font-family: 'Roboto', sans-serif;
+  font-size: rem(15);
+  font-weight: 300;
+  font-style: italic;
+  color: #999;
+  text-align: center;
+}
+
+/* ------------- The End Main ------------ */
