@@ -21,27 +21,32 @@
       в массив чисел не нужно, после чего снова пользователю предлагается ввести число в prompt.
 */
 
-let userInput;
+
 const numbers = [];
 let total = 0;
 
-do {
-  userInput = prompt('Введите любое число: ', '');
+let userInput = 0;
 
-  numbers.push(Number(userInput));
+while (userInput !== null) {
 
-    if (Number(userInput) === 0) {
-      numbers.pop(Number(userInput));
-    } else if (Number.isNaN(Number(userInput))) {
-      alert('Было введено не число, попробуйте еще раз');
-      numbers.pop(Number(userInput));
-    }
+	userInput = prompt('Введите любое число: ', '');
 
-  console.log(numbers);
+	if ( Number(userInput) !== 0 && !isNaN(Number(userInput) && userInput !== null)) {
+		numbers.push(Number(userInput));
+		console.log(numbers);
+	} else if (userInput === null){
+		break;
+	} else {
+		alert('Было введено не число, попробуйте еще раз');
+	}
 
-} while (userInput !== null);
+	console.log(userInput !== null);
+}
 
 for (let item of numbers) {
-  total += item;
+ total += item;
 }
+
+if (numbers.length !== 0) {
 alert(`Общая сумма чисел равна ${total}`);
+}
