@@ -50,13 +50,12 @@ const isLoginValid = function(login) {
 };
 
 const isLoginUnique = function(logins, login) {
-  const hasLogin = logins.includes(login);
-  return hasLogin;
+  return logins.includes(login);
 };
 
 const addLogin = function(login) {
 
-  if (isLoginValid(login) === true) {
+  if (isLoginValid(login)) {
 
     if (isLoginUnique(logins, login) === false) {
       logins.push(login);
