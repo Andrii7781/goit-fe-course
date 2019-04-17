@@ -36,25 +36,25 @@ const userCountry = prompt('Введите Вашу страну:', '');
 
 switch (userCountry.toLowerCase()) {
   case 'китай':
-  alert (`Доставка в ${userCountry.toLowerCase()} будет стоить ${china} кредитов`);
+  console.log (`Доставка в ${userCountry.toLowerCase()} будет стоить ${china} кредитов`);
   break;
 
   case 'южная америка':
-  alert (`Доставка в ${userCountry.toLowerCase()} будет стоить ${southAmerica} кредитов`);
+  console.log (`Доставка в ${userCountry.toLowerCase()} будет стоить ${southAmerica} кредитов`);
   break;
 
   case 'австралия':
-  alert (`Доставка в ${userCountry.toLowerCase()} будет стоить ${australia} кредитов`);
+  console.log (`Доставка в ${userCountry.toLowerCase()} будет стоить ${australia} кредитов`);
   break;
 
   case 'индия':
-  alert (`Доставка в ${userCountry.toLowerCase()} будет стоить ${india} кредитов`);
+  console.log (`Доставка в ${userCountry.toLowerCase()} будет стоить ${india} кредитов`);
   break;
 
   case 'ямайка':
-  alert (`Доставка в ${userCountry.toLowerCase()} будет стоить ${jamaica} кредитов`);
+  console.log (`Доставка в ${userCountry.toLowerCase()} будет стоить ${jamaica} кредитов`);
   break;
 
   default:
-  alert ('В Вашу страну доставка не доступна')
+  console.log ('В Вашу страну доставка не доступна')
 }

@@ -31,12 +31,12 @@ const messageCancel = 'Отменено пользователем!';
 const messageQuestion = prompt('Какое количество дроидов Вы хотете купить?', '');
 
 if ( messageQuestion === null ) {
-  alert( messageCancel );
-} else if ( Number(messageQuestion) > 0 && Number.isInteger(Number(messageQuestion))) {
-	totalPrice = Number(messageQuestion) * pricePerDroid ;
+  console.log(messageCancel);
+} else {
+	totalPrice = messageQuestion * pricePerDroid ;
 		if (totalPrice > credits) {
-		  alert ('Недостаточно средств на счету!')
-		} else if (totalPrice < credits) {
+		  console.log ('Недостаточно средств на счету!')
+		} else {
 		  alert (`Вы купили ${messageQuestion} дроидов, на счету осталось ${credits - totalPrice} кредитов.`)
 		}
 }

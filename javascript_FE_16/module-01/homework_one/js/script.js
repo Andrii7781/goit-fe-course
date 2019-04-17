@@ -20,27 +20,21 @@ let message;
 
 'use strict'
 
-const adminLogin = 'admin';
 const adminPassword = 'm4ng0h4ckz';
 
+let message;
 const messageCancel = 'Отменено пользователем!';
-const notEqual = 'Доступ запрещен!';
-const messagePassword = 'Введите пароль:';
 const welcome = 'Добро пожаловать!';
+const notEqual = 'Доступ запрещен, неверный пароль';
 
-const userLogin = prompt('Введите логин:', '');
+const userPassword = prompt('Введите логин администратора:', '');
 
-if ( userLogin === null ) {
-  alert( messageCancel );
-} else if ( userLogin !== adminLogin ) {
-  alert( notEqual );
-} else if ( userLogin === adminLogin ) {
-  const userPassword = prompt ( messagePassword, '' );
-    if ( userPassword === null ) {
-      alert( messageCancel );
-    } else if ( userPassword !== adminPassword ) {
-      alert( notEqual );
-    } else if ( userPassword === adminPassword ) {
-     alert( welcome );
-    }
+if ( userPassword === null ) {
+  message = messageCancel ;
+} else if ( userPassword === adminPassword ) {
+  message = welcome;
+} else {
+  message = notEqual
 }
+
+alert(message);
