@@ -36,12 +36,11 @@ do {
   userInput = prompt('Введите свой пароль: ', '');
   attemptsLeft -= 1;
   if (userInput !== null){
-    let hasPassword = passwords.includes(userInput);
-    console.log(hasPassword);
-    if (hasPassword === true) {
+    if (passwords.includes(userInput)) {
       alert('Добро пожаловать!');
       break;
-    }else if (hasPassword === false && attemptsLeft === 0) {
+    }
+    if (!attemptsLeft) {
       alert('У вас закончились попытки, аккаунт заблокирован!');
       break;
     } else {

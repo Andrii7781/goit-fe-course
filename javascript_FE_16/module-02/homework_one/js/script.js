@@ -25,20 +25,29 @@ let total = 0;
 'use strict'
 
 const numbers = [];
-let input;
+let input = 0;
 let total = 0;
 
 while (input !== null) {
 	input = prompt('Введите число:', '');
-	if ( !isNaN(Number(input))) {
-		numbers.push(Number(input));
-	} else {
-		alert('Было введено не число, попробуйте еще раз');
-	}
+    if (input === null) {
+        break;
+    } else {
+        if (!Number.isNaN(Number(input))) {
+            numbers.push(Number(input));
+            console.log(numbers);
+        } else {
+            alert('Было введено не число, попробуйте еще раз');
+        }
+    }
 }
-for (let item of numbers) {
- total += item;
+
+
+if (numbers.length) {
+    for (let item of numbers) {
+    total += item;
+    }
+    console.log(`Общая сумма чисел равна ${total}`);
 }
-if ( numbers.length !== 0  ) {
-console.log(`Общая сумма чисел равна ${total}`);
-}
+
+
