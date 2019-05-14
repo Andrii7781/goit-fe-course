@@ -51,8 +51,6 @@ const max = 16;
 const login = prompt('Введите имя пользователя:', '');
 
 const isLoginValid = function(login) {
-  // const inRange = login.length >= min && login.length <= max;
-  // return inRange;
   return login.length >= min && login.length <= max;
 };
 
@@ -63,15 +61,15 @@ const isLoginUnique = function(logins, login) {
 const addLogin = function(Logins, login) {
    if (isLoginValid(login)) {
 
-    if (isLoginUnique(logins, login) === false) {
+    if (!isLoginUnique(logins, login)) {
       logins.push(login);
-      alert('Логин успешно добавлен!');
+      return ('Логин успешно добавлен!');
     } else {
-      alert('Такой логин уже используется!');
+      return ('Такой логин уже используется!');
     }
 
   } else {
-    alert('Ошибка! Логин должен быть от 4 до 16 символов');
+    return ('Ошибка! Логин должен быть от 4 до 16 символов');
   }
 
   return logins;
